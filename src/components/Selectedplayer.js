@@ -7,7 +7,7 @@ function Selectedplayer(props) {
         
 
 
-      <ListGroup.Item as="li" style={{display:'flex',justifyContent:'flex-start',width:'500px'}} >Name{selected.name}  Salary:${selected.salary}M</ListGroup.Item>
+      <ListGroup.Item as="li" style={{width:'500px',position:'relative'}} >   Name{selected.name} <span style={{position:'absolute',right:'0 ',top:'0'}}> Salary:${selected.salary}M</span></ListGroup.Item>
      
         
 
